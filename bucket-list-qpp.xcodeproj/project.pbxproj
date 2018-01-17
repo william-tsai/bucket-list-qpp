@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF09CA3200FF102006242D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF09CA2200FF102006242D6 /* AppDelegate.swift */; };
+		BCF09CA5200FF102006242D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF09CA4200FF102006242D6 /* ViewController.swift */; };
+		BCF09CA8200FF102006242D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF09CA6200FF102006242D6 /* Main.storyboard */; };
+		BCF09CAA200FF102006242D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF09CA9200FF102006242D6 /* Assets.xcassets */; };
+		BCF09CAD200FF102006242D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF09CAB200FF102006242D6 /* LaunchScreen.storyboard */; };
+		BCF09CB8200FF102006242D6 /* bucket_list_qppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF09CB7200FF102006242D6 /* bucket_list_qppTests.swift */; };
+		BCF09CC3200FF102006242D6 /* bucket_list_qppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF09CC2200FF102006242D6 /* bucket_list_qppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF09CB4200FF102006242D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF09C97200FF102006242D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF09C9E200FF102006242D6;
+			remoteInfo = "bucket-list-qpp";
+		};
+		BCF09CBF200FF102006242D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF09C97200FF102006242D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF09C9E200FF102006242D6;
+			remoteInfo = "bucket-list-qpp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCF09C9F200FF102006242D6 /* bucket-list-qpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bucket-list-qpp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF09CA2200FF102006242D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCF09CA4200FF102006242D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCF09CA7200FF102006242D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF09CA9200FF102006242D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF09CAC200FF102006242D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF09CAE200FF102006242D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF09CB3200FF102006242D6 /* bucket-list-qppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bucket-list-qppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF09CB7200FF102006242D6 /* bucket_list_qppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucket_list_qppTests.swift; sourceTree = "<group>"; };
+		BCF09CB9200FF102006242D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF09CBE200FF102006242D6 /* bucket-list-qppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bucket-list-qppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF09CC2200FF102006242D6 /* bucket_list_qppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucket_list_qppUITests.swift; sourceTree = "<group>"; };
+		BCF09CC4200FF102006242D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF09C9C200FF102006242D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF09CB0200FF102006242D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF09CBB200FF102006242D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF09C96200FF102006242D6 = {
+			isa = PBXGroup;
+			children = (
+				BCF09CA1200FF102006242D6 /* bucket-list-qpp */,
+				BCF09CB6200FF102006242D6 /* bucket-list-qppTests */,
+				BCF09CC1200FF102006242D6 /* bucket-list-qppUITests */,
+				BCF09CA0200FF102006242D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF09CA0200FF102006242D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF09C9F200FF102006242D6 /* bucket-list-qpp.app */,
+				BCF09CB3200FF102006242D6 /* bucket-list-qppTests.xctest */,
+				BCF09CBE200FF102006242D6 /* bucket-list-qppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF09CA1200FF102006242D6 /* bucket-list-qpp */ = {
+			isa = PBXGroup;
+			children = (
+				BCF09CA2200FF102006242D6 /* AppDelegate.swift */,
+				BCF09CA4200FF102006242D6 /* ViewController.swift */,
+				BCF09CA6200FF102006242D6 /* Main.storyboard */,
+				BCF09CA9200FF102006242D6 /* Assets.xcassets */,
+				BCF09CAB200FF102006242D6 /* LaunchScreen.storyboard */,
+				BCF09CAE200FF102006242D6 /* Info.plist */,
+			);
+			path = "bucket-list-qpp";
+			sourceTree = "<group>";
+		};
+		BCF09CB6200FF102006242D6 /* bucket-list-qppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF09CB7200FF102006242D6 /* bucket_list_qppTests.swift */,
+				BCF09CB9200FF102006242D6 /* Info.plist */,
+			);
+			path = "bucket-list-qppTests";
+			sourceTree = "<group>";
+		};
+		BCF09CC1200FF102006242D6 /* bucket-list-qppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF09CC2200FF102006242D6 /* bucket_list_qppUITests.swift */,
+				BCF09CC4200FF102006242D6 /* Info.plist */,
+			);
+			path = "bucket-list-qppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF09C9E200FF102006242D6 /* bucket-list-qpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF09CC7200FF102006242D6 /* Build configuration list for PBXNativeTarget "bucket-list-qpp" */;
+			buildPhases = (
+				BCF09C9B200FF102006242D6 /* Sources */,
+				BCF09C9C200FF102006242D6 /* Frameworks */,
+				BCF09C9D200FF102006242D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bucket-list-qpp";
+			productName = "bucket-list-qpp";
+			productReference = BCF09C9F200FF102006242D6 /* bucket-list-qpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF09CB2200FF102006242D6 /* bucket-list-qppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF09CCA200FF102006242D6 /* Build configuration list for PBXNativeTarget "bucket-list-qppTests" */;
+			buildPhases = (
+				BCF09CAF200FF102006242D6 /* Sources */,
+				BCF09CB0200FF102006242D6 /* Frameworks */,
+				BCF09CB1200FF102006242D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF09CB5200FF102006242D6 /* PBXTargetDependency */,
+			);
+			name = "bucket-list-qppTests";
+			productName = "bucket-list-qppTests";
+			productReference = BCF09CB3200FF102006242D6 /* bucket-list-qppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF09CBD200FF102006242D6 /* bucket-list-qppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF09CCD200FF102006242D6 /* Build configuration list for PBXNativeTarget "bucket-list-qppUITests" */;
+			buildPhases = (
+				BCF09CBA200FF102006242D6 /* Sources */,
+				BCF09CBB200FF102006242D6 /* Frameworks */,
+				BCF09CBC200FF102006242D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF09CC0200FF102006242D6 /* PBXTargetDependency */,
+			);
+			name = "bucket-list-qppUITests";
+			productName = "bucket-list-qppUITests";
+			productReference = BCF09CBE200FF102006242D6 /* bucket-list-qppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF09C97200FF102006242D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "William Tsai";
+				TargetAttributes = {
+					BCF09C9E200FF102006242D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BCF09CB2200FF102006242D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCF09C9E200FF102006242D6;
+					};
+					BCF09CBD200FF102006242D6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCF09C9E200FF102006242D6;
+					};
+				};
+			};
+			buildConfigurationList = BCF09C9A200FF102006242D6 /* Build configuration list for PBXProject "bucket-list-qpp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF09C96200FF102006242D6;
+			productRefGroup = BCF09CA0200FF102006242D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF09C9E200FF102006242D6 /* bucket-list-qpp */,
+				BCF09CB2200FF102006242D6 /* bucket-list-qppTests */,
+				BCF09CBD200FF102006242D6 /* bucket-list-qppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF09C9D200FF102006242D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF09CAD200FF102006242D6 /* LaunchScreen.storyboard in Resources */,
+				BCF09CAA200FF102006242D6 /* Assets.xcassets in Resources */,
+				BCF09CA8200FF102006242D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF09CB1200FF102006242D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF09CBC200FF102006242D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF09C9B200FF102006242D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF09CA5200FF102006242D6 /* ViewController.swift in Sources */,
+				BCF09CA3200FF102006242D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF09CAF200FF102006242D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF09CB8200FF102006242D6 /* bucket_list_qppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF09CBA200FF102006242D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF09CC3200FF102006242D6 /* bucket_list_qppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF09CB5200FF102006242D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF09C9E200FF102006242D6 /* bucket-list-qpp */;
+			targetProxy = BCF09CB4200FF102006242D6 /* PBXContainerItemProxy */;
+		};
+		BCF09CC0200FF102006242D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF09C9E200FF102006242D6 /* bucket-list-qpp */;
+			targetProxy = BCF09CBF200FF102006242D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF09CA6200FF102006242D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF09CA7200FF102006242D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF09CAB200FF102006242D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF09CAC200FF102006242D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF09CC5200FF102006242D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCF09CC6200FF102006242D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF09CC8200FF102006242D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bucket-list-qpp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.bucket-list-qpp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF09CC9200FF102006242D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bucket-list-qpp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.bucket-list-qpp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCF09CCB200FF102006242D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bucket-list-qppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.bucket-list-qppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bucket-list-qpp.app/bucket-list-qpp";
+			};
+			name = Debug;
+		};
+		BCF09CCC200FF102006242D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bucket-list-qppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.bucket-list-qppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bucket-list-qpp.app/bucket-list-qpp";
+			};
+			name = Release;
+		};
+		BCF09CCE200FF102006242D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bucket-list-qppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.bucket-list-qppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bucket-list-qpp";
+			};
+			name = Debug;
+		};
+		BCF09CCF200FF102006242D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bucket-list-qppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.bucket-list-qppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bucket-list-qpp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF09C9A200FF102006242D6 /* Build configuration list for PBXProject "bucket-list-qpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF09CC5200FF102006242D6 /* Debug */,
+				BCF09CC6200FF102006242D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF09CC7200FF102006242D6 /* Build configuration list for PBXNativeTarget "bucket-list-qpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF09CC8200FF102006242D6 /* Debug */,
+				BCF09CC9200FF102006242D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF09CCA200FF102006242D6 /* Build configuration list for PBXNativeTarget "bucket-list-qppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF09CCB200FF102006242D6 /* Debug */,
+				BCF09CCC200FF102006242D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF09CCD200FF102006242D6 /* Build configuration list for PBXNativeTarget "bucket-list-qppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF09CCE200FF102006242D6 /* Debug */,
+				BCF09CCF200FF102006242D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF09C97200FF102006242D6 /* Project object */;
+}
